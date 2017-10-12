@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.deak.videoplayer.widget.PullLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pulllayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/menu_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:fitsSystemWindows="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/title"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <include layout="@layout/title" />
+
+        <FrameLayout
+            android:id="@+id/fl_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/main_activity_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FF5978F5"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_home"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:button="@color/transparent"
+                    android:drawablePadding="-4dp"
+                    android:drawableTop="@drawable/radio_btn_home"
+                    android:gravity="center"
+                    android:text="@string/home_string"
+                    android:textColor="@color/radio_txt_colors"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_subscribe"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:button="@color/transparent"
+                    android:drawablePadding="-4dp"
+                    android:drawableTop="@drawable/radio_btn_subscribe"
+                    android:gravity="center"
+                    android:text="@string/subscribe_string"
+                    android:textColor="@color/radio_txt_colors"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_local"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:button="@color/transparent"
+                    android:drawablePadding="-4dp"
+                    android:drawableTop="@drawable/radio_btn_local"
+                    android:gravity="center"
+                    android:text="@string/local_string"
+                    android:textColor="@color/radio_txt_colors"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_mine"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:button="@color/transparent"
+                    android:drawablePadding="-4dp"
+                    android:drawableTop="@drawable/radio_btn_mine"
+                    android:gravity="center"
+                    android:text="@string/mine_string"
+                    android:textColor="@color/radio_txt_colors"
+                    android:textSize="12sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+</com.android.deak.videoplayer.widget.PullLayout>

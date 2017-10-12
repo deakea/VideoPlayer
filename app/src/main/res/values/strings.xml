@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="home_string">首页</string>
+    <string name="subscribe_string">订阅</string>
+    <string name="local_string">本地</string>
+    <string name="mine_string">我的</string>
+    <string name="search_hint_string">请输入搜索内容</string>
+    <string name="title_string">DeakVidio</string>
+    <string name="delete_str">删除</string>
+    <string name="search_iv_str">搜索</string>
+    <string name="no_content_hint">暂 无 该 内 容\nヾ(o◕∀◕)ﾉヾ(⊙ ︿ ⊙)( ｀д′)o(≧口≦)o</string>
+    <string name="intro_string">简介：</string>
+    <string name="episode_string">选集</string>
+    <string name="keyword">热门关键词</string>
+    <string name="cancel">取消</string>
+    <string name="item_result_title">名称：</string>
+    <string name="isfinish_search_result">完结状态:</string>
+    <string name="brief_search_result">简介：</string>
+    <string name="curr_search_result_have_number">集数：</string>
+    <string name="grade_string">评分：</string>
+    <string name="scan_local">扫描</string>
+    <string name="check_all_local">全选</string>
+    <string name="local_no_content">暂无任何内容，请扫描！</string>
+    <string name="video_collect">收藏(订阅)</string>
+    <string name="video_play_loading">正在努力加载中....</string>
+    <string name="cancel_collect">取消收藏</string>
+    <string name="history_mine">历史记录</string>
+    <string name="local_video_mine">本地视频</string>
+    <string name="accoint_mine">账号管理</string>
+    <string name="setting_mine">设置</string>
+</resources>
