@@ -34,6 +34,7 @@ public class MyApplication extends Application {
                 .diskCacheSize(50 * 1024 * 1024)
                 .diskCacheFileCount(200)
                 .build();
+        //图片加载初始化以及配置
         ImageLoader.getInstance().init(config);
         sImageOptions = new DisplayImageOptions.Builder().cacheInMemory(true)//储存在缓存
                 .cacheOnDisk(true)//储存在SD卡
